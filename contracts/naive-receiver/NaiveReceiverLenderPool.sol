@@ -38,6 +38,7 @@ contract NaiveReceiverLenderPool is ReentrancyGuard {
             address(this).balance >= balanceBefore + FIXED_FEE,
             "Flash loan hasn't been paid back"
         );
+
     }
 
     // Allow deposits of ETH
