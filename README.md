@@ -6,6 +6,8 @@ Naive-Receiver
 
 Truster
 
+Side Entrance
+
 ![](cover.png)
 
 **A set of challenges to hack implementations of DeFi in Ethereum.**
