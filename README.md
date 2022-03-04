@@ -8,6 +8,10 @@ Truster
 
 Side Entrance
 
+The Rewarder
+
+Selfie
+
 ![](cover.png)
 
 **A set of challenges to hack implementations of DeFi in Ethereum.**
