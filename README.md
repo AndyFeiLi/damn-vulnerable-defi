@@ -12,6 +12,8 @@ The Rewarder
 
 Selfie
 
+Compromised
+
 ![](cover.png)
 
 **A set of challenges to hack implementations of DeFi in Ethereum.**
